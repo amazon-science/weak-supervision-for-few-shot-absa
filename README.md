@@ -20,7 +20,7 @@ For the data, check the README inside the data directory.
 
 If you find the sources useful, please consider citing our work:
 
-# Citations
+## Citations
 
 BibTeX for the first paper:
 
