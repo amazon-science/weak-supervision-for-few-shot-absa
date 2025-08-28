@@ -1,0 +1,11 @@
+conda create -n instruction_tuning_flax python==3.10.5
+conda activate instruction_tuning_flax
+pip install transformers
+pip install datasets
+pip install sentencepiece
+pip install protobuf==3.20.1
+pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install --upgrade jax==0.3.2 jaxlib==0.3.2+cuda11.cudnn82 -f https://storage.googleapis.com/jax-releases/jax_releases.html
+pip install "jax[cuda11_cudnn805]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install --upgrade jax jaxlib==0.1.60+cuda116 -f https://storage.googleapis.com/jax-releases/jax_releases.html
+pip install flax
